@@ -8,6 +8,15 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+
+# Пример работы TG-бота
+
+***Часть 1:***
+
+<p align="center">
+    <img src="docs/1photo.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+</p>
+
 A short description of the project.
 
 ## Project Organization
