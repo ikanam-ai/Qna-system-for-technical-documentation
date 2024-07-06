@@ -17,6 +17,22 @@
     <img src="docs/1photo.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
 </p>
 
+***Часть 2:***
+
+<p align="center">
+    <img src="docs/2photo.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+</p>
+
+***Часть 3:***
+
+<p align="center">
+    <img src="docs/3photo.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+</p>
+
+
+---
+
+
 A short description of the project.
 
 ## Project Organization
