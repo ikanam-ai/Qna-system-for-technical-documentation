@@ -1,4 +1,8 @@
-# scfo
+<p align="center">
+    <img src="docs/RuStore_Icon.png" alt="Логотип проекта" width="500" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+     <H2 align="center">Команда Kit-kat</H2> 
+    <H2 align="center">Кейс "Вопросно-ответная система по технической документации"</H2> 
+</p>
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
