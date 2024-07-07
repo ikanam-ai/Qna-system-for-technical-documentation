@@ -38,12 +38,11 @@
 
 
 
-
+---
 
 [Screencast](https://drive.google.com/file/d/1B_-eNaIec-sj3MxIPmCyZqv6nUNWF4VT/view?usp=drive_link) наших сервисов
-    
 
-
+---
 
 ## Пример работы web-сервиса
 
