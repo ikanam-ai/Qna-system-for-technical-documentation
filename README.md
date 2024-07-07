@@ -34,8 +34,14 @@
   - запустить все миикросервисы из docker-compose: ```docker-compose up```
 + 3 вариант
   - Перейдите по [ссылке](https://t.me/rustore_doc_bot) и наслаждайтесь TG-ботом
+ 
+
+
+
+
+
+[Screencast](https://drive.google.com/file/d/1B_-eNaIec-sj3MxIPmCyZqv6nUNWF4VT/view?usp=drive_link) наших сервисов
     
-  
 
 
 
