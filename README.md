@@ -8,6 +8,21 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+# Пример работы web-сервиса
+
+***Часть 1:***
+
+<p align="center">
+    <img src="docs/web1.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+</p>
+
+***Часть 2:***
+
+<p align="center">
+    <img src="docs/web2.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+</p>
+
+
 
 # Пример работы TG-бота
 
