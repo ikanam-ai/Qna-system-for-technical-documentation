@@ -20,7 +20,7 @@
 Технологии
 - ML Pipline: ruRoBERTa-large, CatBoost, YandexGPT 3
 - Веб-приложение: React, Node JS
-- Брокер сообщений: RabbitMQ
+- Балансировка нагрузки: Nginx
 - Хранение данных: MongoDb 
 
 
