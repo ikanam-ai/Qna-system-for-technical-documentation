@@ -1,0 +1,51 @@
+services:
+  traefik:
+    image: "traefik"
+    command:
+      - "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entryPoints.web.address=:80"
+      - "--entryPoints.api.address=:3001"
+    ports:
+      - "80:80"
+      - "4173:4173"
+      - "3001:3001"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  pybackend:
+    build:
+      context: "./pybackend"
+    command: "fastapi run main.py --port 8000"
+    ports:
+      - 8000:8000
+
+  websocket-server:
+    build:
+      context: "./web/chatapi"
+    command: "pnpm preview"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.websocket-server.rule=Host(`localhost`)"
+      - "traefik.http.routers.websocket-server.entrypoints=api"
+      - "traefik.http.services.websocket-server.loadbalancer.server.port=3001"
+
+  frontend:
+    environment:
+      - VITE_HOST=localhost
+    build:
+      args:
+        - VITE_HOST=localhost
+      context: "./web/front"
+    command: "pnpm preview --host"
+    depends_on:
+      - pybackend
+      - websocket-server
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`localhost`)"
+      - "traefik.http.routers.frontend.entrypoints=web"
+      - "traefik.http.services.frontend.loadbalancer.server.port=4173"

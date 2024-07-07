@@ -1,0 +1,30 @@
+{
+  "name": "chatapi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts",
+    "build": "rm -rf dist/ && tsc",
+    "preview": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "@types/node": "^20.14.10",
+    "eslint": "9.x",
+    "globals": "^15.8.0",
+    "nodemon": "^3.1.4",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^10.0.1",
+    "fastify": "^4.28.1"
+  }
+}
