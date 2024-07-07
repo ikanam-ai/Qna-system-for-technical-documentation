@@ -17,7 +17,7 @@
   - перейдите в папку scfo: ```cd scfo```
   - запустить все миикросервисы из docker-compose: docker-compose up
 + 3 вариант
-  - Перейдите по [ссылке](@rustore_doc_bot) и наслаждайтесь TG-ботом
+  - Перейдите по [ссылке](https://t.me/rustore_doc_bot) и наслаждайтесь TG-ботом
     
   
 
