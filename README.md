@@ -15,7 +15,7 @@
 + 2 вариант, в docker
   - Клонируйте репозиторий: ```git clone https://github.com/ikanam-ai/Qna-system-for-technical-documentation.git```
   - перейдите в папку scfo: ```cd scfo```
-  - запустить все миикросервисы из docker-compose: docker-compose up
+  - запустить все миикросервисы из docker-compose: ```docker-compose up```
 + 3 вариант
   - Перейдите по [ссылке](https://t.me/rustore_doc_bot) и наслаждайтесь TG-ботом
     
