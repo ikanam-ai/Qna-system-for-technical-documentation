@@ -8,6 +8,21 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+Использование
++ 1 вариант
+  - Перейдите по [ссылке](http://147.45.139.59/) и наслаждайтесь web-сервисом
+  - 
++ 2 вариант, в docker
+  - Клонируйте репозиторий: ```git clone https://github.com/ikanam-ai/Qna-system-for-technical-documentation.git```
+  - перейдите в папку scfo: ```cd scfo```
+  - запустить все миикросервисы из docker-compose: docker-compose up
++ 3 вариант
+  - Перейдите по [ссылке](@rustore_doc_bot) и наслаждайтесь TG-ботом
+    
+  
+
+
+
 # Пример работы web-сервиса
 
 ***Часть 1:***
