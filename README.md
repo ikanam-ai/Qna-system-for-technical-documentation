@@ -21,7 +21,6 @@
 - **ML Pipline**: ruRoBERTa-large, CatBoost, YandexGPT 3
 - **Веб-приложение**: React, Node JS
 - **Балансировка нагрузки**: Traefik
-- **Хранение данных**: MongoDb 
 
 
 # **Использование**
